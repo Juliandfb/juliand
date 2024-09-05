@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <style>
+     body {
+          background-image: url("static/image/pechuga.jpg");
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+        }
+        </style>
+        <center>
+    <nav class="menu">
+        <a href="http://127.0.0.1:5000">Bibliografia</a>
+        <a href="http://127.0.0.1:5000/portafolio">informacion acerca de leguajes de programacion</a>
+        <a href="http://127.0.0.1:5000/contactos">Contactos</a>
+        
+       </nav>
+    </center>
+       <section class="s2">
+        <div class=""><h1>contactame</h1>
+    <ul>
+    <li>
+       <a href="https://www.facebook.com/juliandavid.floresbecerra.3">facebook</a>
+    </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <ul>
+    <li>
+       <a href="https://www.instagram.com/julian_florez___?igsh=MTZ0YzExczM3OGZ2OA==">instagram</a>
+    </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <ul>
+    <li>
+       <a href="https://wa.me/qr/KYR7EN6IQ3FXA1">whatsAPP</a>
+    </li>
+    </ul>
+        </div>
+       </section>
+       <center>
+       <h1>formulario</h1>
+            <form action="mensaje" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required />
+            <br>
+            <br>
+            <label for="correo">correo:</label>
+            <input type="email" id="correo" name="correo" required />
+            <br>
+            <br>
+            <label for="telefono">telefono:</label>
+            <input type="text" id="telefono" name="telefono" maxlength="10" required />
+            <br>
+            <br>
+            <label for="telefono2">telefono2:</label>
+            <input type="text" id="telefono2" name="telefono2" maxlength="10" required />
+            <br>
+            <br>
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required />
+            <br>
+            <br>
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero" required>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="otro">Otro</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+    
+        </form>
+        </center>
+</body>
+</html>
